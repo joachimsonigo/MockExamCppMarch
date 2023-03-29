@@ -8,10 +8,11 @@ using namespace std;
 class carre:public forme {
 public:
     carre(double=0);
-    void disp();
+    virtual void disp();
     double perimetre();
     double aire();
     int type();
+    virtual ~carre(){};
 };
 carre::carre(double a):forme(a) {}
 double carre::perimetre() {return (4*x);}

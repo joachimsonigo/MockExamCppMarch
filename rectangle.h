@@ -10,10 +10,11 @@ protected:
     double y;
 public:
     rectangle(double=0,double=0);
-    void disp();
+    virtual void disp();
     double perimetre();
     double aire();
     int type();
+    virtual ~rectangle(){};
 };
 rectangle::rectangle(double a,double b): carre(a),y(b) {}
 double rectangle::perimetre() {return (2*(x+y));}

@@ -13,7 +13,8 @@ protected:
 public:
     forme(double=0);
     forme(forme &);
-    void disp();
+    virtual void disp()=0;
+    virtual ~forme(){};
 };
 
 forme::forme(double a) {x=a;}

@@ -5,10 +5,17 @@
 #include "rectangle.h"
 using namespace std;
 
-
 int main() {
-rectangle f,f1(17,23);
-f.disp();
-f1.disp();
-return 0;
+    cout<<"-----------------------"<<endl;
+    cout<<"Test avec les pointeurs"<<endl;
+    cout<<"-----------------------"<<endl;
+    forme *f1= new cercle (17);
+    forme *f2 = new carre (18);
+    forme *f3 = new rectangle (19, 20);
+    f1->disp ();
+    f2->disp();
+    f3->disp();
+    delete f1;
+    delete f2;
+    delete f3;
 }

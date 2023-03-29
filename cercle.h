@@ -10,10 +10,11 @@ using namespace std;
 class cercle:public forme {
 public:
     cercle(double=0);
-    void disp();
+    virtual void disp();
     double perimetre();
     double aire();
     int type();
+    virtual ~cercle(){};
 };
 cercle::cercle(double a):forme(a) {}
 double cercle::perimetre() {return (2*M_PI*x);}
