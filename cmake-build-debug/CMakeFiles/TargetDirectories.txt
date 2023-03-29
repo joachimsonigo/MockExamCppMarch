@@ -1,0 +1,3 @@
+C:/Users/coolj/OneDrive/Documents/IPSA/3A-S2/C++/MockExam/cmake-build-debug/CMakeFiles/MockExam.dir
+C:/Users/coolj/OneDrive/Documents/IPSA/3A-S2/C++/MockExam/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/coolj/OneDrive/Documents/IPSA/3A-S2/C++/MockExam/cmake-build-debug/CMakeFiles/rebuild_cache.dir
