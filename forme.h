@@ -14,7 +14,9 @@ public:
     forme(double=0);
     forme(forme &);
     virtual void disp()=0;
-    virtual ~forme(){};
+    virtual ~forme(){}
+    virtual double perimetre(){return 0;};
+    virtual double aire(){return 0;};
 };
 
 forme::forme(double a) {x=a;}

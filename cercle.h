@@ -11,8 +11,8 @@ class cercle:public forme {
 public:
     cercle(double=0);
     virtual void disp();
-    double perimetre();
-    double aire();
+    virtual double perimetre();
+    virtual double aire();
     int type();
     virtual ~cercle(){};
 };
