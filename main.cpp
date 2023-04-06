@@ -18,6 +18,7 @@ void menu(){
         }while(choice<1 || choice > 4);
         if (choice ==1){
             mf.add();
+            system("pause");
         }
         else
         if (choice == 2){
